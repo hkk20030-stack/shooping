@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الأناقة - أزياء عصرية</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>متجر الأناقة</h1>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="active">الرئيسية</a></li>
+                    <li><a href="women.html">ملابس نسائية</a></li>
+                    <li><a href="men.html">ملابس رجالية</a></li>
+                    <li><a href="kids.html">ملابس أطفال</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">اكتشف أحدث صيحات الموضة</h2>
+            <p class="hero-subtitle">تسوق أفضل الأزياء العصرية بأسعار مميزة</p>
+            <a href="#categories" class="btn-primary">تسوق الآن</a>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <h2 class="section-title">تصفح حسب الفئة</h2>
+            <div class="category-grid">
+                <div class="category-card" onclick="location.href='women.html'">
+                    <div class="category-image">
+                        <img src="images/women_dress.jpg" alt="ملابس نسائية">
+                    </div>
+                    <div class="category-info">
+                        <h3>ملابس نسائية</h3>
+                        <p>أحدث التصاميم العصرية</p>
+                        <span class="category-link">تسوق الآن ←</span>
+                    </div>
+                </div>
+
+                <div class="category-card" onclick="location.href='men.html'">
+                    <div class="category-image">
+                        <img src="images/men_outfits.jpg" alt="ملابس رجالية">
+                    </div>
+                    <div class="category-info">
+                        <h3>ملابس رجالية</h3>
+                        <p>أناقة وتميز للرجل العصري</p>
+                        <span class="category-link">تسوق الآن ←</span>
+                    </div>
+                </div>
+
+                <div class="category-card" onclick="location.href='kids.html'">
+                    <div class="category-image">
+                        <img src="images/kids_outfit.jpg" alt="ملابس أطفال">
+                    </div>
+                    <div class="category-info">
+                        <h3>ملابس أطفال</h3>
+                        <p>راحة وجمال لأطفالك</p>
+                        <span class="category-link">تسوق الآن ←</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🚚</div>
+                    <h3>شحن مجاني</h3>
+                    <p>للطلبات فوق 200 ريال</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">💳</div>
+                    <h3>دفع آمن</h3>
+                    <p>حماية كاملة لمعلوماتك</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔄</div>
+                    <h3>إرجاع سهل</h3>
+                    <p>خلال 14 يوم من الشراء</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">⭐</div>
+                    <h3>جودة عالية</h3>
+                    <p>منتجات مضمونة 100%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>متجر الأناقة</h3>
+                    <p>وجهتك الأولى للأزياء العصرية والأنيقة</p>
+                </div>
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="women.html">ملابس نسائية</a></li>
+                        <li><a href="men.html">ملابس رجالية</a></li>
+                        <li><a href="kids.html">ملابس أطفال</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>تواصل معنا</h4>
+                    <ul>
+                        <li>البريد: info@elegance-store.com</li>
+                        <li>الهاتف: +966 50 123 4567</li>
+                        <li><a href="contact.html">نموذج الاتصال</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 متجر الأناقة. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
